@@ -42,7 +42,7 @@ class Screen extends StatelessWidget {
               ],
             ),
           );
-          player.play();
+          player.playOrPause();
           // print(media);
           // AudioManager.instance.start("${directory.path}", "Testing").then((value) => print(value));
         },
